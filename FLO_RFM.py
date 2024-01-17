@@ -42,7 +42,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 pd.set_option('display.width',1000)
-df_=pd.read_csv("CRM_Analytics/datasets/flo_data_20k.csv")
+df_=pd.read_csv("flo_data_20k.csv")
 df=df_.copy()
 # 2. Veri setinde
         # a. İlk 10 gözlem,
